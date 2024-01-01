@@ -1,0 +1,114 @@
+.hero {
+    height: 100vh;
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+    display: flex;
+}
+.hero-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 100px;
+    line-height: 1.1;
+}
+.hero-left h2 {
+    color: #090909;
+    font-size: 16px;
+    font-weight: 600;
+}
+.hero-left p {
+    color: #171717;
+    font-size: 36px;
+    font-weight: 700;
+}
+.hero-hand-icon {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.hero-hand-icon img {
+    width: 105px;
+}
+.hero-latest-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 280px;
+    height: 70px;
+    border-radius: 75px;
+    margin-top: 30px;
+    background: #ff4141;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+.hero-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-right img {
+    width: auto;
+    height: 80vh;
+}
+
+/* Responsive design begins here */
+@media only screen and (max-width: 600px) {
+    .hero-left {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        padding-left: 5%; /* Adjust padding for smaller screens */
+        padding-right: 5%; /* Adjust padding for smaller screens */
+        text-align: center; /* Center text for smaller screens */
+    }
+    .hero-left h2 {
+        color: #090909;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .hero-left p {
+        color: #171717;
+        font-size: 26px; /* Adjust font size for smaller screens */
+        font-weight: 700;
+    }
+    .hero-hand-icon {
+        display: flex;
+        flex-direction: column; /* Stack icons vertically for smaller screens */
+        align-items: center;
+        gap: 20px;
+    }
+    .hero-hand-icon img {
+        width: 70px; /* Adjust image size for smaller screens */
+    }
+    .hero-latest-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        width: 100%; /* Take full width for smaller screens */
+        height: 50px; /* Adjust height for smaller screens */
+        border-radius: 25px; /* Adjust border radius for smaller screens */
+        margin-top: 20px; /* Adjust margin for smaller screens */
+        background: #ff4141;
+        color: white;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .hero-right {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .hero-right img {
+        width: 100%; /* Make the image responsive */
+        height: auto; /* Maintain aspect ratio */
+    }    
+
+}
