@@ -30,7 +30,7 @@
 .hero-hand-icon img {
     width: 105px;
 }
-.hero-latest-btn {
+.hero-latest-btn button {
     display: flex;
     justify-content: center;
     align-items: center;
