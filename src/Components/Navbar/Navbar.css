@@ -40,7 +40,7 @@ font-weight: 600;
     width: 80%;
     height: 3px;
     border-radius: 10px;
-    background: #ff4141;
+    background: #002E25;
 }
 .nav-login-cart{
     display: flex;
@@ -76,7 +76,7 @@ font-weight: 600;
     margin-left: -55px;
     border-radius: 11px;
     font-size: 10px;
-    background: red;
+    background: #002E25;
     color: white;
 }
 

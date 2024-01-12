@@ -3,7 +3,7 @@ import React from 'react';
 import { useState, useContext } from 'react';
 
 import './Navbar.css'; 
-import logo from '../Assets/logo.png';
+import new_logo from '../Assets/new_logo.png';
 import cart_icon from '../Assets/cart_icon.png'
 import { Link } from 'react-router-dom';
 import { ShopContext } from '../../Context/ShopContext';
@@ -18,8 +18,7 @@ const {getTotalCartItems}= useContext(ShopContext);
     <div className="navbar">
       <Link style={{textDecoration: 'none'}} to ='/'>
       <div className="nav-logo">
-      <img src={logo} alt=""/>
-      <p>AberRange</p>
+      <img src={new_logo} alt=""/>
       </div>
       </Link>
       <ul className="nav-menu">

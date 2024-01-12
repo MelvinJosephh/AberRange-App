@@ -2,18 +2,18 @@ import React from 'react'
 import './Hero.css'
 import hand_icon from '../Assets/hand_icon.png'
 import arrow_icon from '../Assets/arrow.png'
-import hero_image from '../Assets/hero_image.png'
+import copied_hero from '../Assets/copied_hero.png'
 const Hero = () => {
   return (
     <div className='hero'>
       <div className='hero-left'>
-        <h2>NEW ARRIVALS</h2>
+        <h2>Unleash Your Wardrobe's Potential with Our Latest Trends</h2>
         <div className='hero-hand-icon'>
-            <p>new</p>
-            <img src={hand_icon} alt="" />
+            <h3>by AberRange Collections</h3>
+            {/* <img src={hand_icon} alt="" /> */}
         </div>
-        <p>Collections</p>
-        <p>for everyone</p>
+        <p>Explore the latest trends handpicked to suit your lifestyle – 
+          because you deserve nothing but the best in fashion.</p>
 
         <div className="hero-latest-btn">
         <div>Latest Collections </div>
@@ -22,7 +22,7 @@ const Hero = () => {
       </div>
 
       <div className='hero-right'>
-        <img src={hero_image} alt=""/>
+        <img src={copied_hero} alt=""/>
       </div>
     </div>
   )
